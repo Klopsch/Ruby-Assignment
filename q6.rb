@@ -14,7 +14,7 @@ class Matching
         @names.each do |k|
             File.delete(k)
         end
-        Dir.rmdir("temp")
+        #Dir.rmdir("temp")
     end
 end
 puts "Part 6: Strings & Regular Expressions"
